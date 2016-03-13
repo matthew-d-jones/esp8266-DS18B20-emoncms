@@ -4,3 +4,5 @@ This is an arduino sketch for an ESP8266 wifi module. It reads temperature from 
 The project can be built using [PlatformIO](http://platformio.org/) after installing the DallasTemperature library.
 
 The ESP8266 should have D0 connected to RST, in order to be able to wake from deep-sleep. The DS18B20 needs a 4.7k resistor beween DQ and VCC, and DQ should be connected to D4 on the ESP8266.
+
+The SSID and password for your WiFi needs to be set in the [ino file](/src/basic_temp_read.ino), as well as the apikey for your emoncms account.
